@@ -1,0 +1,13 @@
+{
+  "editor.insertSpaces": false,
+  "editor.tabSize": 4,
+  "[typescript]": {
+    "editor.insertSpaces": false
+  },
+  "[html]": {
+    "editor.insertSpaces": false
+  },
+  "[css]": {
+    "editor.insertSpaces": false
+  }
+}

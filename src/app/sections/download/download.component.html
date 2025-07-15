@@ -1,1 +1,26 @@
-<p>download works!</p>
+<div class="section-download flexY">
+	<div class="flexY download-top">
+		<h2>Download the extension</h2>
+		<p>We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize.</p>
+	</div>
+	<div class="cardsDiv">
+		<app-card-download
+			[title]="'Add to Chrome'"
+			[text]="'Minimum version 63'"
+			[img_src]="'images/logo-chrome.svg'"
+			[btn_label]="'Add &amp; Install Extension'"
+		></app-card-download>
+		<app-card-download
+			[title]="'Add to Firefox'"
+			[text]="'Minimum version 55'"
+			[img_src]="'images/logo-firefox.svg'"
+			[btn_label]="'Add &amp; Install Extension'"
+		></app-card-download>
+		<app-card-download
+			[title]="'Add to Opera'"
+			[text]="'Minimum version 46'"
+			[img_src]="'images/logo-opera.svg'"
+			[btn_label]="'Add &amp; Install Extension'"
+		></app-card-download>
+	</div>
+</div>

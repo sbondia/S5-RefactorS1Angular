@@ -5,11 +5,14 @@
 	<div class="textalign_left">
 		<h2>{{title}}</h2>
 		<p>{{text}}</p>
-		@for(btn of buttons; track btn.label){
-			<app-button-link
-				[label]="btn.label"
-				[url]="btn.url"
-			></app-button-link>
-		}
+		<div>
+			@for(btn of buttons; track btn.label){
+				<app-button-link
+					[label]="btn.label"
+					[url]="btn.url"
+				></app-button-link>
+			}
+		</div>
+
 	</div>
 </div>

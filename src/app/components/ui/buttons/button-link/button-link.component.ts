@@ -8,5 +8,5 @@ import { Component, Input } from '@angular/core';
 })
 export class ButtonLinkComponent {
   @Input() label:string = ''
-  @Input() url:string = ''
+  @Input() url?:string = ''
 }

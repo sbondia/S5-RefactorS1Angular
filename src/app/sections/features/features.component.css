@@ -1,0 +1,19 @@
+.button-features {
+  text-decoration: none;
+  color: black;
+  padding: 12px 28px;
+  border-bottom: gray;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+.button-features:hover{
+  color: #ce5200;
+  border-bottom: #ce5200;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+}
+@media (min-width: 600px) {
+	.features-top{
+		max-width: 60%;
+	}
+}

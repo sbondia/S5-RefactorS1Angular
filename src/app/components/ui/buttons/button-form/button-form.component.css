@@ -1,0 +1,15 @@
+.button-form{
+  background-color: #c20000;
+  color: white;
+  border-style: solid;
+  box-shadow: 5px 5px 10px #e0e0eb;
+  border-radius: 8px;
+  padding: 12px 28px;
+  min-width: 120px;
+}
+.button-form:hover{
+  background-color: white;
+  color: #c20000;
+  border-style: solid;
+  border-color: #c20000;
+}

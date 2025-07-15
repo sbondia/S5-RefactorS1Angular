@@ -1,0 +1,13 @@
+<header>
+	<img src="images/logo-bookmark.svg" alt="logo_bookmark">
+	<div id="nav_hamburguer">
+		<img src="icons/icon-hamburger.svg" alt="icon_hamburguer" onclick="show_navMenu(true)">
+	</div>
+	<div id="nav_list">
+		<app-button-nav [label]="'FEATURES'" [url]="'#features'"></app-button-nav>
+		<app-button-nav [label]="'PRICING'" [url]="'#pricing'"></app-button-nav>
+		<app-button-nav [label]="'CONTACT'" [url]="'#contact'"></app-button-nav>
+		<app-button-form [label]="'LOGIN'"></app-button-form>
+	</div>
+		<!-- here goes translucent menu or use signals to activate components!-->
+</header>

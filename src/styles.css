@@ -1,10 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 body {
+  font-family: sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-content: center;
   align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 div {
   text-align: center;
@@ -14,5 +17,10 @@ div {
 img {
   max-width: 100%;
   height: auto;
-  margin: 10px;
+}
+@media (min-width: 600px) {
+	.textalign_left {
+    	text-align: left;
+    	width: 500px;
+  	}
 }

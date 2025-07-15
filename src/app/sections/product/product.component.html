@@ -1,5 +1,8 @@
 <div class="section-product">
 	<div>
+		<img [src]="img_src" [alt]="img_alt">
+	</div>
+	<div class="textalign_left">
 		<h2>{{title}}</h2>
 		<p>{{text}}</p>
 		@for(btn of buttons; track btn.label){
@@ -9,5 +12,4 @@
 			></app-button-link>
 		}
 	</div>
-	<img [src]="img_src" [alt]="img_alt">
 </div>

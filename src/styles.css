@@ -35,6 +35,11 @@ p{
   align-content: center;
   align-items: center;
 }
+.icon{
+    width: 24px;
+    height: 24px;
+    object-fit: none;
+}
 @media (min-width: 600px) {
 	.textalign_left {
     	text-align: left;

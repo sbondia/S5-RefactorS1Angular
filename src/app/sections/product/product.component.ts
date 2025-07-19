@@ -5,7 +5,7 @@ import { ButtonLinkComponent } from "../../components/ui/buttons/button-link/but
   selector: 'app-product',
   imports: [ButtonLinkComponent],
   templateUrl: './product.component.html',
-  styleUrl: './product.component.css'
+  styleUrl: './product.component.scss'
 })
 export class ProductComponent {
   

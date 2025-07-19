@@ -5,7 +5,7 @@ import { CardDownloadComponent } from '../../components/ui/cards/card-download/c
   selector: 'app-download',
   imports: [CardDownloadComponent],
   templateUrl: './download.component.html',
-  styleUrl: './download.component.css'
+  styleUrl: './download.component.scss'
 })
 export class DownloadComponent {
 

@@ -4,7 +4,7 @@ import { Component, Input } from '@angular/core';
   selector: 'app-card-details',
   imports: [],
   templateUrl: './card-details.component.html',
-  styleUrl: './card-details.component.css'
+  styleUrl: './card-details.component.scss'
 })
 export class CardDetailsComponent {
   @Input() title:string = ''

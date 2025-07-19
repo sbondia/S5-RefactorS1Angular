@@ -4,20 +4,26 @@
 			<h2>Features</h2>
 			<p>Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
 		</div>
+		<!--
 		<div class="flexX">
 			<a class="button-features" (click)="showFeatures(1)">Simple Bookmarking</a>
 			<a class="button-features" (click)="showFeatures(2)">Speedy Searching</a>
 			<a class="button-features" (click)="showFeatures(3)">Easy Sharing</a>
 		</div>
+		-->
 	</div>
 	<div>
-		@for (card of cards; track card.title) {
-			<app-card-features
-				[title]="card.title"
-				[text]="card.text"
-				[img_src]="card.img_src"
-				[btn_label]="btn_label"
-			></app-card-features>
-		}
+		<mat-tab-group>
+			@for (card of cards; track card.title) {
+				<mat-tab label="{{card.label}}">
+					<app-card-features
+						[title]="card.title"
+						[text]="card.text"
+						[img_src]="card.img_src"
+						[btn_label]="btn_label"
+					></app-card-features>
+				</mat-tab>
+			}
+		</mat-tab-group>
 	</div>
 </div>

@@ -1,3 +1,13 @@
+@use '@angular/material' as mat;
+
+mat-tabs{
+  @include mat.tabs-overrides((
+    foreground-color: red,
+    active-hover-indicator-color: orange
+  ));
+
+}
+
 .button-features {
   text-decoration: none;
   color: black;
@@ -12,6 +22,9 @@
   border-bottom-width: 3px;
   border-bottom-style: solid;
 }
+
+
+
 @media (min-width: 600px) {
 	.features-top{
 		max-width: 60%;

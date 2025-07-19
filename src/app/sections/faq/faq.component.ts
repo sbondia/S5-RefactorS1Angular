@@ -6,7 +6,7 @@ import { ButtonLinkComponent } from "../../components/ui/buttons/button-link/but
   selector: 'app-faq',
   imports: [CardDetailsComponent, ButtonLinkComponent],
   templateUrl: './faq.component.html',
-  styleUrl: './faq.component.css'
+  styleUrl: './faq.component.scss'
 })
 export class FaqComponent {
   img_src:string = 'icons/icon-arrow.svg'

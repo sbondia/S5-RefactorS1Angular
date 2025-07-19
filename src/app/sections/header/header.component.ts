@@ -6,7 +6,7 @@ import { ButtonFormComponent } from "../../components/ui/buttons/button-form/but
   selector: 'app-header',
   imports: [ButtonNavComponent, ButtonFormComponent],
   templateUrl: './header.component.html',
-  styleUrl: './header.component.css'
+  styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
 

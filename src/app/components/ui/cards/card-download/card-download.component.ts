@@ -5,7 +5,7 @@ import { ButtonLinkComponent } from '../../buttons/button-link/button-link.compo
   selector: 'app-card-download',
   imports: [ButtonLinkComponent],
   templateUrl: './card-download.component.html',
-  styleUrl: './card-download.component.css'
+  styleUrl: './card-download.component.scss'
 })
 export class CardDownloadComponent {
   @Input() title:string = ''

@@ -1,0 +1,22 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 100px;
+	padding: 0px 30px;
+}
+#nav_list{
+	display: none;
+}
+@media (min-width: 600px) {
+	header{
+		padding-left: 5%;
+  		padding-right: 5%;
+	}
+	#nav_hamburguer{
+		display: none;
+	}
+	#nav_list{
+		display: block;
+	}
+}

@@ -1,13 +1,19 @@
 <div class="section-product">
 	<div>
-		<h2>{{title}}</h2>
-		<p>{{text}}</p>
-		@for(btn of buttons; track btn.label){
-			<app-button-link
-				[label]="btn.label"
-				[url]="btn.url"
-			></app-button-link>
-		}
+		<img src="images/illustration-hero.svg" alt="illustration-hero.svg">
 	</div>
-	<img [src]="img_src" [alt]="img_alt">
+	<div class="textalign_left">
+		<h2>A simple bookmark manager</h2>
+		<p>A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+		<div>
+			<app-button-link
+				[label]="'Get it on Chrome'"
+				[url]="'https://www.google.com/'"
+			></app-button-link>
+			<app-button-link
+				[label]="'Get in on Firefox'"
+				[url]="'https://www.firefox.com/'"
+			></app-button-link>
+		</div>
+	</div>
 </div>

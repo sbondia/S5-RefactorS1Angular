@@ -1,5 +1,14 @@
+.button-nav {
+  text-decoration: none;
+  color: black;
+  padding: 12px 28px;
+}
+.button-nav:hover{
+  color: #c20000;
+}
+
 @media (min-width: 600px) {
-	.section-product {
+	.card-features {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;

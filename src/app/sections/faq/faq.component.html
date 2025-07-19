@@ -1,0 +1,15 @@
+<div class="section-faq flexY">
+	<div class="flexY faq-top">
+		<h2>Download the extension</h2>
+		<p>We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize.</p>
+	</div>
+	<div>
+		@for (card of cards; track card.title) {
+			<app-card-details
+				[title]="card.title"
+				[img_src]="img_src"
+			></app-card-details>
+		}
+	</div>
+	<app-button-link [label]="'More info'"></app-button-link>
+</div>

@@ -4,7 +4,7 @@ import { Component, Input } from '@angular/core';
   selector: 'app-button-nav',
   imports: [],
   templateUrl: './button-nav.component.html',
-  styleUrl: './button-nav.component.css'
+  styleUrl: './button-nav.component.scss'
 })
 export class ButtonNavComponent {
   @Input() label:string = ''

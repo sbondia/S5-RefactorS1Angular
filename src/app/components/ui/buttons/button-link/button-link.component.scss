@@ -1,0 +1,16 @@
+.button-link{
+  text-decoration: none;
+  background-color: #5266df;
+  color: white;
+  border-style: solid;
+  box-shadow: 5px 5px 10px #e0e0eb;
+  border-radius: 8px;
+  padding: 12px 28px;
+  min-width: 120px;
+}
+.button-link:hover{
+  background-color: white;
+  color: #5266df;
+  border-style: solid;
+  border-color: #5266df;
+}

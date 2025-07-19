@@ -2,12 +2,12 @@ import { Component, Input } from '@angular/core';
 import { ButtonLinkComponent } from '../../buttons/button-link/button-link.component';
 
 @Component({
-  selector: 'app-card-features',
+  selector: 'app-card-download',
   imports: [ButtonLinkComponent],
-  templateUrl: './card-features.component.html',
-  styleUrl: './card-features.component.scss'
+  templateUrl: './card-download.component.html',
+  styleUrl: './card-download.component.scss'
 })
-export class CardFeaturesComponent {
+export class CardDownloadComponent {
   @Input() title:string = ''
   @Input() text:string = ''
   @Input() btn_label:string = ''
